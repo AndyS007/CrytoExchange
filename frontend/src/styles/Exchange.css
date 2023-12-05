@@ -1,0 +1,62 @@
+.exchange-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.exchange-content {
+    width: 80%;
+    display: flex;
+}
+
+.exchange-content section {
+    width: 80%;
+    flex: 1;
+}
+
+.fiat-block {
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.trading-form {
+    margin-top: 20px;
+}
+
+.fiat-label {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: darkgray;
+    text-align: center;
+}
+
+.crypto-tranding-header {
+    margin-top: 20px;
+    color: darkgray;
+}
+
+.fiat-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.fiat-board {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.exchange-block {
+    width: 50%;
+}
+
+.braintree-dropIn-container {
+    width: 40%;
+    margin: 0 auto;
+}

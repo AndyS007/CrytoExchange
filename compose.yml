@@ -1,0 +1,14 @@
+services:
+  web:
+    container_name: web 
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - mongo-network
+    ports:
+      - 3000:3000
+
+networks:
+  mongo-network:
+    external: true

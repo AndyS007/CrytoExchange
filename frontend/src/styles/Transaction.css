@@ -1,0 +1,69 @@
+.transaction-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.transaction-content {
+    width: 80%;
+    display: flex;
+}
+
+.transaction-content section {
+    width: 50%;
+    flex: 1;
+}
+
+.trade-block {
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.trading-form {
+    margin-top: 20px;
+}
+
+.trading-form-label {
+    text-align: left;
+    padding-left: 8px;
+    color: darkgray;
+}
+
+.history-block {
+    margin-left: 20px;
+    border: 1px solid lightgray;
+    min-height: 60vh;
+}
+
+.history-label,
+.trading-label {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: darkgray;
+    text-align: center;
+}
+
+.history-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.history-row:hover {
+    background-color: rgba(247, 247, 247, 0.849);
+    cursor: pointer;
+}
+
+.history-table th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+.history-table th {
+    font-weight: 500;
+    color: darkgray;
+}

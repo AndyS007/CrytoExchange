@@ -1,0 +1,118 @@
+.user-block {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-label {
+    color: darkgrey;
+}
+
+.name-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.name-content {
+    font-size: 30px;
+}
+
+.user-info-block {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid lightgray;
+    overflow-x: auto;
+}
+
+.uid-block {
+    margin-left: 20px;
+}
+
+.assets-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.assets-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+.value-block {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.value-content {
+    font-size: 30px;
+}
+
+.currency-block {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: auto;
+}
+
+.currency-block table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.currency-block tr {
+    border-bottom: 1px solid darkgray;
+}
+
+.currency-block th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+.currency-block th {
+    font-weight: 500;
+}
+
+.coin-icon {
+    width: 17px;
+    height: 17px;
+}
+
+.coin-label {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.btn-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-btn {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wallet-info {
+    text-align: center;
+}
