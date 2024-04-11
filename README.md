@@ -2,17 +2,25 @@
 A Centralized Cryptocurrency Exchange built for Crypto transaction, supporting bitcoin, ethereum, etc.
 
 ## Framework in use
+
 ### Frontend: 
 React
+
 React Redux
+
 React Router
 
 ### Backend: 
 Axios: for RESTful API
+
 Bcryptjs, Jsonwebtoken: for encryting and storing user credentials securely
+
 Node.js and Express.js: handling request
+
 MongoDB: Nosql database
+
 Web3.js: Web3 blockchain transaction.
+
 Braintree: for fiat money payment.
 
 
